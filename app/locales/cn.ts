@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: " ### 联系电话： 15310638214 *微信同号* \n\n **前往公众号**: **CreatorSource** 回复 密码 免费获取密码，然后点击左下角设置按钮输入密码后解锁**免费使用**。\n\n **提问**: 能免费用 GPT-4 吗? \n**回答**: 太贵了，一次对话一块钱，日常用 3.5 足够，后续会开放专业用户的GPT-4 充值 \n\n 卡顿或无响应?可能是用户量太大， ➡️ ➡️ ➡️ ➡️([点我获得更多余额](https://mp.weixin.qq.com/s?__biz=MzkzMTM0MTc0NQ==&mid=2247483682&idx=1&sn=440211648d56442d13b0d30bbc224b49&chksm=c26d35fcf51abceaeed04c9b5169e17efaeee9d049c3c981f654e8d4e3a9edeba304426c0e8f#rd))\n\n *已补充额度并更新版本，更新时间:2024.01.0616:30*",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

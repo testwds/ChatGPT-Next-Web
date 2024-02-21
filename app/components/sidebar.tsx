@@ -154,11 +154,11 @@ export function SideBar(props: { className?: string }) {
       }}
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
-        <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+        <div className={styles["sidebar-title"]} data-tauri-drag-region> 
+          wds-bot
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          测试.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -217,7 +217,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
+            <a href="https://mp.weixin.qq.com/s?__biz=MzkzMTM0MTc0NQ==&mid=2247483682&idx=1&sn=440211648d56442d13b0d30bbc224b49&chksm=c26d35fcf51abceaeed04c9b5169e17efaeee9d049c3c981f654e8d4e3a9edeba304426c0e8f#rd" target="_blank" rel="noopener noreferrer">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
